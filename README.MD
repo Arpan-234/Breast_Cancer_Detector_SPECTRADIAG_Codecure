@@ -169,7 +169,7 @@ Output: prob, threshold (Youden-optimal), calibrated logits
 |---|:---:|:---:|
 | **Architecture type** | From scratch | Transfer learning (EfficientNet-B0) |
 | **Parameters** | 1,094,922 (~1.1M) | ~4–6.3M |
-| **Model size** | **4.38 MB** | ~16–25 MB |
+| **Model size** | **4.38 MB** | ~16–25 MB MAX 40MB APPROX |
 | **Best Val AUC** | 0.806 | **1.000** (seed 52) |
 | **Cross-seed AUC (mean ± std)** | — | **0.9882 ± 0.0207** |
 | **Cross-seed F1 (mean ± std)** | — | **0.9372 ± 0.0536** |
